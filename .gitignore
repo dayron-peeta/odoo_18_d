@@ -1,2 +1,8 @@
-addons/* 
+# Ignore all content from proprietary addons
+addons/*
 !addons/.gitkeep
+
+# Ignore all content from copied core addons
+odoo-source/odoo/addons/*
+# EXCEPT this README.md documentation
+!odoo-source/odoo/addons/README.md
