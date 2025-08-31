@@ -1,6 +1,7 @@
 # Ignore all content from proprietary addons
 addons/*
 !addons/.gitkeep
+*.tar
 
 # Ignore all content from copied core addons
 odoo-source/odoo/addons/*
